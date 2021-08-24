@@ -1,0 +1,99 @@
+body {
+    background-color: darkolivegreen;
+}
+
+.frame {
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* navigator */
+
+.navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+}
+
+ul {
+    margin: 0;
+}
+
+.site-name {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: ghostwhite;
+}
+
+.nav-menu {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+a {
+    color: black;
+    text-decoration:  none;
+}
+
+a:hover {
+    color: ghostwhite;
+    transition: 0.3s;
+}
+
+/* dashboard */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.korean-comment {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.name-sample {
+    background-color: darkcyan;
+}
+
+.name-sample:hover {
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+}
+
+.highlight {
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.highlight:hover {
+    background-color: darkcyan;
+    color: black;
+    transition: none;
+}
+
+.type1:hover {
+    background-color: purple;
+}
+
+.type2:hover {
+    background-color: antiquewhite;
+}
+
+.type3:hover {
+    background-color: sandybrown;
+}
